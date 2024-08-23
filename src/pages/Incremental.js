@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/ModelPage.css';
 
-
 function Incremental() {
   return (
     <div className="model-page">
@@ -14,6 +13,21 @@ function Incremental() {
         e comunicação em tempo real. O software vai crescendo aos poucos, sempre entregando novas 
         funcionalidades para os usuários, o que é típico do modelo Incremental.
       </p>
+
+      <div className="advantages-disadvantages">
+        <div className="advantages">
+          <h2>Vantagens</h2>
+          <p>• Permite a entrega rápida de versões iniciais do produto.</p>
+          <p>• Fácil adaptação a mudanças e novas necessidades.</p>
+          <p>• Redução de riscos através de entregas incrementais.</p>
+        </div>
+        <div className="disadvantages">
+          <h2>Desvantagens</h2>
+          <p>• Requer bom planejamento para evitar retrabalho.</p>
+          <p>• Pode resultar em um produto final inconsistente se não for bem gerido.</p>
+          <p>• Mais difícil de gerenciar conforme o produto cresce.</p>
+        </div>
+      </div>
     </div>
   );
 }
