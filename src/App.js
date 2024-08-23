@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Waterfall from './pages/Waterfall';
+import Incremental from './pages/Incremental';
+import Prototyping from './pages/Prototyping';
+import Spiral from './pages/Spiral';
+import Header from './components/Header';
+import Footer from './components/Footer'; // Importa o Footer
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/waterfall" element={<Waterfall />} />
+        <Route path="/incremental" element={<Incremental />} />
+        <Route path="/prototyping" element={<Prototyping />} />
+        <Route path="/spiral" element={<Spiral />} />
+      </Routes>
+      <Footer /> {/* Adiciona o Footer aqui */}
+    </Router>
   );
 }
 
