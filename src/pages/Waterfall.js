@@ -31,7 +31,8 @@ function Waterfall() {
           <p>• Risco elevado se os requisitos não forem bem definidos.</p>
         </div>
       </div>
-      <div>
+      
+      <div className='empresa'>
         <h2>Exmplos de empresas</h2>
         <ul>
           <li>NASA</li>

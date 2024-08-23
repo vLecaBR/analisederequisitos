@@ -28,7 +28,7 @@ body {
     margin-bottom: 20px; /* Espaço abaixo da imagem */
 }
 /* Adiciona estilo à seção "Exemplos de empresas" */
-.model-page div > h2 {
+.empresa h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em; /* Tamanho do título */
   color: #58a6ff; /* Cor do título */
