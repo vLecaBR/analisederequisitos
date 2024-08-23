@@ -36,7 +36,6 @@ function Spiral() {
           <li>Microsoft</li>
           <li>IBM</li>
           <li>Oracle</li>
-          <li>NASA</li>
           <li>Google</li>
         </ul>
       </div>

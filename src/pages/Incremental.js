@@ -28,6 +28,17 @@ function Incremental() {
           <p>• Mais difícil de gerenciar conforme o produto cresce.</p>
         </div>
       </div>
+
+      <div>
+        <h2>Exemplos de empresas</h2>
+        <ul>
+          <li>Amazon</li>
+          <li>Microsoft</li>
+          <li>Salesforce</li>
+          <li>Atlassian</li>
+          <li>Trello</li>
+        </ul>
+      </div>
     </div>
   );
 }

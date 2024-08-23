@@ -30,6 +30,17 @@ function Prototyping() {
           <p>• Risco de o protótipo ser confundido com o produto final pelos stakeholders.</p>
         </div>
       </div>
+
+      <div>
+        <h2>Exemplos de empresas</h2>
+        <ul>
+          <li>Apple</li>
+          <li>Adobe</li>
+          <li>Uber</li>
+          <li>Airbnb</li>
+          <li>Spotify</li>
+        </ul>
+      </div>
     </div>
   );
 }
