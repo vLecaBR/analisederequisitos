@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ModelPage.css';
+import prototypingImage from '../img/prototipagem.jpeg';
 
 function Prototyping() {
   return (
@@ -15,6 +16,7 @@ function Prototyping() {
         produto final começa. Esse uso da Prototipagem é comum em startups, onde a visão 
         do produto pode evoluir rapidamente.
       </p>
+      <img src={prototypingImage} alt="Modelo Cascata" className="model-image" />
 
       <div className="advantages-disadvantages">
         <div className="advantages">

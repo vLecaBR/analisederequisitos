@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ModelPage.css';
+import spiralImage from '../img/espiral.jpeg';
 
 function Spiral() {
   return (
@@ -14,6 +15,7 @@ function Spiral() {
         conforme necessário. Esse processo se repete, sempre focando na mitigação
         de riscos, o que torna o modelo Espiral ideal para esse tipo de projeto sensível.
       </p>
+      <img src={spiralImage} alt="Modelo Cascata" className="model-image" />
 
       <div className="advantages-disadvantages">
         <div className="advantages">

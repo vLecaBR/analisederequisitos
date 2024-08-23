@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ModelPage.css';
+import incrementalImage from '../img/incremental.jpeg';
 
 function Incremental() {
   return (
@@ -13,6 +14,7 @@ function Incremental() {
         e comunicação em tempo real. O software vai crescendo aos poucos, sempre entregando novas 
         funcionalidades para os usuários, o que é típico do modelo Incremental.
       </p>
+      <img src={incrementalImage} alt="Modelo Cascata" className="model-image" />
 
       <div className="advantages-disadvantages">
         <div className="advantages">
