@@ -122,8 +122,9 @@ body {
   
   .model-grid .model-card {
     max-width: 300px; /* Limita a largura das cartas */
+    height: 350px;
     flex: 1 1 300px; /* Permite que as cartas se ajustem e envolvam */
-    background-color: #161b22;
+    background-color: #58a6ffb1;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
@@ -132,6 +133,15 @@ body {
   .model-grid .model-card:hover {
     transform: scale(1.05); /* Efeito de escala ao passar o mouse */
   }
+
+  .model-card img {
+    width: 300px; /* Garante que a imagem ocupe toda a largura disponível na carta */
+    height: 200px; /* Mantém a proporção da imagem */
+    border-top-left-radius: 15px; /* Ajusta os cantos arredondados no topo */
+    border-top-right-radius: 15px; /* Ajusta os cantos arredondados no topo */
+    object-fit: cover; /* Corta a imagem para preencher o espaço sem distorcer */
+  }
+  
   
   .footer {
     background-color: #21262d;
@@ -167,14 +177,14 @@ body {
   }
   
   a {
-    color: #f0883e; /* Cor vibrante para links */
+    color: #ffffff; /* Cor vibrante para links */
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
   a:hover {
     color: #ffbc4b;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   button {
