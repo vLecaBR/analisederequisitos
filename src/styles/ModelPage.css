@@ -303,7 +303,7 @@ body {
     }
   }
   
-  /* Estilos para dispositivos menores (mobile) */
+ 
 @media only screen and (max-width: 768px) {
   .model-page {
     padding: 20px;
@@ -311,9 +311,11 @@ body {
     margin: 0 10px;
   }
 
-  header{
-    display: none;
-  }
+  header {
+    width: 100%;
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    padding: 0 10px; /* Ajusta o padding para evitar estouro */
+}
 
   .model-image {
     width: 100%;
@@ -327,7 +329,7 @@ body {
 
   .advantages,
   .disadvantages {
-    width: 100%;
+    width: 90%;
     padding: 15px;
   }
 
@@ -336,14 +338,27 @@ body {
   }
 
   nav ul {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row; /* Mantém os itens lado a lado */
+    justify-content: space-around; /* Distribui os itens com espaço entre eles */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
   }
 
   nav li {
-    margin: 10px 0;
+    margin: 0; /* Remove a margem dos itens individuais */
+  }
+
+  nav a {
+    padding: 10px 0px; /* Reduz o padding para evitar estouro da tela */
+    font-size: 0.9em; /* Ajusta o tamanho da fonte para caber melhor */
+    text-align: left;
+
   }
 }
+
+
 
 /* Estilos para dispositivos maiores (desktop grande) */
 @media only screen and (min-width: 1200px) {

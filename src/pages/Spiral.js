@@ -7,13 +7,15 @@ function Spiral() {
     <div className="model-page">
       <h1 className="title">Modelo Espiral</h1>
       <p className="description">
-        Imagine que uma equipe de engenheiros está trabalhando em um sistema
-        de monitoramento para uma usina nuclear. Dada a complexidade e os riscos
-        envolvidos, eles começam com um planejamento cuidadoso, identificando 
-        possíveis problemas antes de começar a codificar. Em cada ciclo, eles 
-        desenvolvem uma parte do sistema, testam rigorosamente e fazem ajustes
-        conforme necessário. Esse processo se repete, sempre focando na mitigação
-        de riscos, o que torna o modelo Espiral ideal para esse tipo de projeto sensível.
+      O modelo espiral combina evolução contínua com um formato estruturado para 
+      desenvolvimento de software. Imagine um ciclo contínuo onde o projeto passa 
+      por etapas como planejamento, análise de risco, desenvolvimento e avaliação 
+      a cada passo. Em vez de seguir uma linha reta, como no modelo em cascata, o 
+      modelo em espiral gira em torno de um ciclo repetitivo. Isso permite que a 
+      equipe revise e aprimore o projeto com base nas informações recebidas e nas 
+      coisas novas que aprendem em cada rodada. Em sua essência, o modelo espiral 
+      oferece uma maneira flexível e dinâmica de criar software, facilitando ajustes
+       e melhorias à medida que avançam.
       </p>
       <img src={spiralImage} alt="Modelo Cascata" className="model-image" />
 

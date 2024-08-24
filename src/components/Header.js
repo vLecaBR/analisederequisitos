@@ -10,10 +10,10 @@ function Header() {
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/waterfall">Modelo Cascata</Link></li>
-          <li><Link to="/incremental">Modelo Incremental</Link></li>
-          <li><Link to="/prototyping">Modelo de Prototipagem</Link></li>
-          <li><Link to="/spiral">Modelo Espiral</Link></li>
+          <li><Link to="/waterfall">Cascata</Link></li>
+          <li><Link to="/incremental">Incremental</Link></li>
+          <li><Link to="/prototyping">Prototipagem</Link></li>
+          <li><Link to="/spiral">Espiral</Link></li>
         </ul>
       </nav>
     </header>
