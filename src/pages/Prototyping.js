@@ -7,15 +7,7 @@ function Prototyping() {
     <div className="model-page">
       <h1 className="title">Modelo de Prototipagem</h1>
       <p className="description">
-      O modelo de prototipagem é uma abordagem prática para o desenvolvimento de software 
-      que começa com a criação de uma versão preliminar do sistema. Em vez de tentar desenvolver
-       o produto final de uma vez, começamos com um protótipo que é testado e ajustado com base
-        no feedback dos usuários. Cada nova versão do protótipo é refinada e melhorada até chegarmos
-         ao produto final. Esse método é muito útil porque permite que os usuários vejam e experimentem
-          o sistema nas suas fases iniciais, o que ajuda a garantir que o resultado final realmente 
-          atenda às suas necessidades. Em essência, o modelo de prototipagem é uma forma flexível e
-           prática de criar software, facilitando ajustes contínuos e alinhamento com as expectativas 
-           dos usuários.
+      
       </p>
       <img src={prototypingImage} alt="Modelo Cascata" className="model-image" />
 

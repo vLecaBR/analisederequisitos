@@ -7,17 +7,7 @@ function Incremental() {
     <div className="model-page">
       <h1 className="title">Modelo Incremental</h1>
       <p className="description">
-      O modelo incremental é uma abordagem de desenvolvimento de software que
-       se baseia em construir o sistema em partes. Em vez de criar o produto 
-       final de uma vez, começamos com uma versão básica que inclui as funcionalidades
-        essenciais. Depois, vamos adicionando novos recursos e melhorias em etapas
-         sucessivas. Cada nova parte é desenvolvida, testada e incorporada ao sistema
-          existente, permitindo que o software vá evoluindo de forma gradual. Esse modelo
-           é vantajoso porque permite entregar uma versão funcional do software mais cedo,
-            o que possibilita que os usuários comecem a usá-lo e dar feedback que pode ser
-             usado nas próximas atualizações. Em resumo, o modelo incremental oferece uma 
-             forma de desenvolver software passo a passo, permitindo ajustes e melhorias 
-             contínuas com base nas necessidades dos usuários.
+      
       </p>
       <img src={incrementalImage} alt="Modelo Cascata" className="model-image" />
 

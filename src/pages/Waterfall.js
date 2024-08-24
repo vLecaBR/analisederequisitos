@@ -7,14 +7,7 @@ function Waterfall() {
     <div className="model-page">
       <h1 className="title">Modelo Cascata</h1>
       <p className="description">
-      O modelo cascata é uma abordagem tradicional de desenvolvimento de software 
-      caracterizada por seu formato linear e sequencial. Neste método, o processo 
-      de desenvolvimento é subdividido em fases distintas, com cada fase devendo ser
-       completada antes que a próxima possa ser iniciada. A progressão é direta e 
-       ordenada, movendo-se de forma vertical, sem a possibilidade de retornar a 
-       etapas anteriores. Em essência, o modelo cascata oferece um caminho claro 
-       e bem estruturado para o desenvolvimento de software, com etapas definidas 
-       e uma sequência rígida.
+      
       </p>
       <img src={cascataImage} alt="Modelo Cascata" className="model-image" />
 
