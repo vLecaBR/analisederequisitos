@@ -8,6 +8,7 @@ import cascataImage from '../img/cascata.jpeg';
 import incrementalImage from '../img/incremental.jpeg';
 import prototypingImage from '../img/prototipagem.jpeg';
 import spiralImage from '../img/espiral.jpeg';
+import qrCode from '../img/qrcode.png';
 
 function Home() {
   return (
@@ -41,6 +42,10 @@ function Home() {
           imageUrl={spiralImage} 
         />
         </Link>
+      </div>
+      <div className="qrcode-container">
+        <h3>Veja no celular</h3>
+      <img src={qrCode} alt="qrcode" className="qrcode" />
       </div>
     </div>
   );

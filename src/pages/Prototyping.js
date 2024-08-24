@@ -7,7 +7,11 @@ function Prototyping() {
     <div className="model-page">
       <h1 className="title">Modelo de Prototipagem</h1>
       <p className="description">
-      
+      A prototipagem é um processo de criação de um modelo inicial ou protótipo de um produto ou projeto digital. Esse método é crucial para visualizar ideias e conceitos antes de sua implementação, ajudando a evitar gastos desnecessários e a validar os requisitos essenciais para os usuários. Um protótipo é uma versão preliminar e menos completa de um produto ou sistema, que serve como modelo de teste para verificar e ajustar aspectos importantes antes da criação da versão final.
+
+O modelo de prototipagem baseia-se na criação iterativa de protótipos para explorar e refinar os requisitos do sistema. Ao construir e apresentar protótipos iniciais aos usuários, a equipe de desenvolvimento pode obter feedback valioso, permitindo ajustes contínuos até que o produto final atenda plenamente às expectativas e necessidades do cliente e dos usuários. Esse processo facilita a compreensão dos requisitos e ajuda a identificar e resolver problemas precocemente, diminuindo riscos e custos.
+
+No entanto, a prototipagem pode envolver custos adicionais e potencialmente prolongar o cronograma de entrega, especialmente se as iterações forem frequentes e extensas. Por exemplo, em desenvolvimento de sistemas, é comum a prototipação das telas, permitindo que o usuário "use" o produto final para definir de forma detalhada seus requisitos
       </p>
       <img src={prototypingImage} alt="Modelo Cascata" className="model-image" />
 

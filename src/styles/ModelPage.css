@@ -197,6 +197,7 @@ body {
     color: #58a6ff; /* Azul vibrante para o título */
     margin-bottom: 30px; /* Espaçamento abaixo do título */
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Sombra para destaque */
+    margin: 0;
   }
   
   .model-grid {
@@ -207,8 +208,8 @@ body {
   }
   
   .model-grid .model-card {
-    max-width: 300px; /* Limita a largura das cartas */
-    height: 350px;
+    max-width: 250px; /* Limita a largura das cartas */
+    height: 310px;
     flex: 1 1 300px; /* Permite que as cartas se ajustem e envolvam */
     background-color: #58a6ffb1;
     border-radius: 15px;
@@ -221,13 +222,23 @@ body {
   }
 
   .model-card img {
-    width: 300px; /* Garante que a imagem ocupe toda a largura disponível na carta */
-    height: 200px; /* Mantém a proporção da imagem */
+    width: 250px; /* Garante que a imagem ocupe toda a largura disponível na carta */
+    height: 150px; /* Mantém a proporção da imagem */
     border-top-left-radius: 15px; /* Ajusta os cantos arredondados no topo */
     border-top-right-radius: 15px; /* Ajusta os cantos arredondados no topo */
     object-fit: cover; /* Corta a imagem para preencher o espaço sem distorcer */
   }
-  
+
+  .qrcode{
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 0px;
+  }
+
+  .qrcode-container{
+    margin-top: 50px;
+    
+  }
   
   .footer {
     background-color: #21262d;
@@ -316,6 +327,10 @@ body {
     box-sizing: border-box; /* Inclui padding e borda na largura total */
     padding: 0 10px; /* Ajusta o padding para evitar estouro */
 }
+
+  .qrcode {
+    display: none;
+  }
 
   .model-image {
     width: 100%;
